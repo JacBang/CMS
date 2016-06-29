@@ -1,0 +1,823 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{42F2C376-86F0-4A1C-B9C0-4258F8CFA78E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CMS</RootNamespace>
+    <AssemblyName>CMS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar">
+      <HintPath>..\..\..\..\DotNetBar\DevComponents.DotNetBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.SQLDMO, Version=8.5.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>bin\Debug\Interop.SQLDMO.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ProDuctAboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProDuctAboutBox.Designer.cs">
+      <DependentUpon>ProDuctAboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comm.cs" />
+    <Compile Include="DieteticManagementDataSet.Designer.cs" />
+    <Compile Include="DieteticManagementDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DieteticManagementDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBColor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBColor.Designer.cs">
+      <DependentUpon>FrmBColor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDbRestore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDbRestore.designer.cs">
+      <DependentUpon>FrmDbRestore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCalendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCalendar.designer.cs">
+      <DependentUpon>FrmCalendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDbBackUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDbBackUp.designer.cs">
+      <DependentUpon>FrmDbBackUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmChangeTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmChangeTable.Designer.cs">
+      <DependentUpon>FrmChangeTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLock.Designer.cs">
+      <DependentUpon>FrmLock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLoginNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLoginNew.Designer.cs">
+      <DependentUpon>FrmLoginNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddConsumer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddConsumer.designer.cs">
+      <DependentUpon>FrmAddConsumer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdminT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdminT.designer.cs">
+      <DependentUpon>FrmAdminT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdminX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdminX.designer.cs">
+      <DependentUpon>FrmAdminX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBill.designer.cs">
+      <DependentUpon>FrmBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCB.designer.cs">
+      <DependentUpon>FrmCB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCMS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCMS.designer.cs">
+      <DependentUpon>FrmCMS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsumer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsumer.designer.cs">
+      <DependentUpon>FrmConsumer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmJz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJz.designer.cs">
+      <DependentUpon>FrmJz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProduct.designer.cs">
+      <DependentUpon>FrmProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductsT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductsT.designer.cs">
+      <DependentUpon>FrmProductsT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductsX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductsX.designer.cs">
+      <DependentUpon>FrmProductsX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPwdX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPwdX.designer.cs">
+      <DependentUpon>FrmPwdX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRoomTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRoomTable.designer.cs">
+      <DependentUpon>FrmRoomTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRoomTypeT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRoomTypeT.designer.cs">
+      <DependentUpon>FrmRoomTypeT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRoomTypeX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRoomTypeX.designer.cs">
+      <DependentUpon>FrmRoomTypeX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSystem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSystem.designer.cs">
+      <DependentUpon>FrmSystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTableT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTableT.designer.cs">
+      <DependentUpon>FrmTableT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTableTs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTableTs.designer.cs">
+      <DependentUpon>FrmTableTs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTableX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTableX.designer.cs">
+      <DependentUpon>FrmTableX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUserLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUserLogin.designer.cs">
+      <DependentUpon>FrmUserLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVIp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVIp.designer.cs">
+      <DependentUpon>FrmVIp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVipGradeT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVipGradeT.designer.cs">
+      <DependentUpon>FrmVipGradeT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVipGradeX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVipGradeX.designer.cs">
+      <DependentUpon>FrmVipGradeX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVipsT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVipsT.designer.cs">
+      <DependentUpon>FrmVipsT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVipsX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVipsX.designer.cs">
+      <DependentUpon>FrmVipsX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POS结帐.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="POS结帐.designer.cs">
+      <DependentUpon>POS结帐.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductsTypeT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductsTypeT.designer.cs">
+      <DependentUpon>ProductsTypeT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductsTypeX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductsTypeX.designer.cs">
+      <DependentUpon>ProductsTypeX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TuiCaichaxunFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TuiCaichaxunFrm.designer.cs">
+      <DependentUpon>TuiCaichaxunFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="单台预订.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="单台预订.designer.cs">
+      <DependentUpon>单台预订.cs</DependentUpon>
+    </Compile>
+    <Compile Include="快餐外买.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="快餐外买.designer.cs">
+      <DependentUpon>快餐外买.cs</DependentUpon>
+    </Compile>
+    <Compile Include="批量预订.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="批量预订.designer.cs">
+      <DependentUpon>批量预订.cs</DependentUpon>
+    </Compile>
+    <Compile Include="预订管理.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="预订管理.designer.cs">
+      <DependentUpon>预订管理.cs</DependentUpon>
+    </Compile>
+    <Compile Include="餐饮快速开单.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="餐饮快速开单.designer.cs">
+      <DependentUpon>餐饮快速开单.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ProDuctAboutBox.resx">
+      <DependentUpon>ProDuctAboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBColor.resx">
+      <DependentUpon>FrmBColor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDbRestore.resx">
+      <DependentUpon>FrmDbRestore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCalendar.resx">
+      <DependentUpon>FrmCalendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDbBackUp.resx">
+      <DependentUpon>FrmDbBackUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmChangeTable.resx">
+      <DependentUpon>FrmChangeTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLock.resx">
+      <DependentUpon>FrmLock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLoginNew.resx">
+      <DependentUpon>FrmLoginNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddConsumer.resx">
+      <DependentUpon>FrmAddConsumer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdminT.resx">
+      <DependentUpon>FrmAdminT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdminX.resx">
+      <DependentUpon>FrmAdminX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBill.resx">
+      <DependentUpon>FrmBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCB.resx">
+      <DependentUpon>FrmCB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCMS.resx">
+      <DependentUpon>FrmCMS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsumer.resx">
+      <DependentUpon>FrmConsumer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmJz.resx">
+      <DependentUpon>FrmJz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProduct.resx">
+      <DependentUpon>FrmProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductsT.resx">
+      <DependentUpon>FrmProductsT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductsX.resx">
+      <DependentUpon>FrmProductsX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPwdX.resx">
+      <DependentUpon>FrmPwdX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRoomTable.resx">
+      <DependentUpon>FrmRoomTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRoomTypeT.resx">
+      <DependentUpon>FrmRoomTypeT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRoomTypeX.resx">
+      <DependentUpon>FrmRoomTypeX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSystem.resx">
+      <DependentUpon>FrmSystem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTableT.resx">
+      <DependentUpon>FrmTableT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTableTs.resx">
+      <DependentUpon>FrmTableTs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTableX.resx">
+      <DependentUpon>FrmTableX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUserLogin.resx">
+      <DependentUpon>FrmUserLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVIp.resx">
+      <DependentUpon>FrmVIp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVipGradeT.resx">
+      <DependentUpon>FrmVipGradeT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVipGradeX.resx">
+      <DependentUpon>FrmVipGradeX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVipsT.resx">
+      <DependentUpon>FrmVipsT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVipsX.resx">
+      <DependentUpon>FrmVipsX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="POS结帐.resx">
+      <DependentUpon>POS结帐.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductsTypeT.resx">
+      <DependentUpon>ProductsTypeT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductsTypeX.resx">
+      <DependentUpon>ProductsTypeX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TuiCaichaxunFrm.resx">
+      <DependentUpon>TuiCaichaxunFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="单台预订.resx">
+      <DependentUpon>单台预订.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="快餐外买.resx">
+      <DependentUpon>快餐外买.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="批量预订.resx">
+      <DependentUpon>批量预订.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="预订管理.resx">
+      <DependentUpon>预订管理.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="餐饮快速开单.resx">
+      <DependentUpon>餐饮快速开单.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="DieteticManagementDataSet.xsc">
+      <DependentUpon>DieteticManagementDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DieteticManagementDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DieteticManagementDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DieteticManagementDataSet.xss">
+      <DependentUpon>DieteticManagementDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CMS.BLL\CMS.BLL.csproj">
+      <Project>{8D9C778A-9CD0-4B55-9DAB-CDA8B8EBF500}</Project>
+      <Name>CMS.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMS.Model\CMS.Model.csproj">
+      <Project>{1EA8D5BE-7D5A-4A25-9480-40B27C2D785F}</Project>
+      <Name>CMS.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addbutton.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddUse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\advancedsettings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chushimao.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chushimao1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\count.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\date.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\db_update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DengLu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FastFood.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fileprint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_tar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FoodManager.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hein29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kfm_home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kghostview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\khelpcenter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kteatime.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kthememgr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Land.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login Manager.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\run.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sign - Dollar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TeaCup.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trashcan_empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\viewmag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vip.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\virus detected 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\virus detected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\表格查询区域统一背景.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\厨师帽.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\登录界面.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\交班管理.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\交接管理.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\交接管理1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\可用.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\取消.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\取消2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\确定.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\确定2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\商品管理.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\系统管理.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\系统设置.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\宴席预订.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\营业查询.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\预订.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\脏台.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\正使用.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\开单.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\添加.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\换桌.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\餐台.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\餐台.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\预定.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\结账.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\挂账.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\设置.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\退出.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\密码.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\用户.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\表头背景.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\登录名称.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserName.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\登录1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\登录1--经过.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\取消1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\取消1--经过.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\title背景.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginTitle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\会员.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\商品管理.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\合并账单.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\拆分账单.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\挂账结算.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\账单管理.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\消费明细.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\退单明细.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\计算器.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\记事本.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\数据库维护.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\系统锁定.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\系统logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\日历.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\账单查询.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\消费查询.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\数据备份.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\数据恢复.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\修改密码.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\用户管理.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\外卖打包.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\帮助.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

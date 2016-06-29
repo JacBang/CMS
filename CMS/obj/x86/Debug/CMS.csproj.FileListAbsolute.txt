@@ -1,0 +1,118 @@
+D:\visual studio 2010\Projects\CMS\CMS\bin\Debug\CMS.exe.config
+D:\visual studio 2010\Projects\CMS\CMS\bin\Debug\CMS.exe
+D:\visual studio 2010\Projects\CMS\CMS\bin\Debug\CMS.pdb
+D:\visual studio 2010\Projects\CMS\CMS\bin\Debug\CMS.BLL.dll
+D:\visual studio 2010\Projects\CMS\CMS\bin\Debug\CMS.Model.dll
+D:\visual studio 2010\Projects\CMS\CMS\bin\Debug\DevComponents.DotNetBar.dll
+D:\visual studio 2010\Projects\CMS\CMS\bin\Debug\CMS.DAL.dll
+D:\visual studio 2010\Projects\CMS\CMS\bin\Debug\CMS.BLL.pdb
+D:\visual studio 2010\Projects\CMS\CMS\bin\Debug\CMS.Model.pdb
+D:\visual studio 2010\Projects\CMS\CMS\bin\Debug\CMS.DAL.pdb
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmBColor.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmDbRestore.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmCalendar.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmDbBackUp.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.Form1.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmChangeTable.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmLock.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmLoginNew.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FormMain.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmAddConsumer.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmAdminT.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmAdminX.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmBill.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmCB.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmCMS.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\商品消费查询.FrmConsumer.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmJz.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\商品管理.UI.FrmProduct.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\商品管理.UI.FrmProductsT.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\商品管理.UI.FrmProductsX.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmPwdX.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmRoomTable.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmRoomTypeT.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmRoomTypeX.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmSystem.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmTableT.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmTableTs.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmTableX.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmUserLogion.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmVIp.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmVipGradeT.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmVipGradeX.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmVipsT.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.FrmVipsX.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\商品管理.UI.ProductsTypeT.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\商品管理.UI.ProductsTypeX.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.Properties.Resources.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.单台预订.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.批量预订.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.预订管理.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.exe
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.pdb
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.快餐外买.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.POS结帐.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.餐饮快速开单.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.TuiCaichaxunFrm.resources
+D:\visual studio 2010\Projects\CMS\CMS\obj\x86\Debug\CMS.ProDuctAboutBox.resources
+D:\VS2010Project\CMS\CMS\bin\Debug\CMS.exe.config
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.exe
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.pdb
+D:\VS2010Project\CMS\CMS\bin\Debug\CMS.exe
+D:\VS2010Project\CMS\CMS\bin\Debug\CMS.pdb
+D:\VS2010Project\CMS\CMS\bin\Debug\CMS.BLL.dll
+D:\VS2010Project\CMS\CMS\bin\Debug\CMS.Model.dll
+D:\VS2010Project\CMS\CMS\bin\Debug\CMS.DAL.dll
+D:\VS2010Project\CMS\CMS\bin\Debug\CMS.BLL.pdb
+D:\VS2010Project\CMS\CMS\bin\Debug\CMS.Model.pdb
+D:\VS2010Project\CMS\CMS\bin\Debug\CMS.DAL.pdb
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.csprojResolveAssemblyReference.cache
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.ProDuctAboutBox.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmBColor.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmDbRestore.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmCalendar.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmDbBackUp.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.Form1.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmChangeTable.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmLock.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmLoginNew.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FormMain.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmAddConsumer.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmAdminT.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmAdminX.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmBill.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmCB.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmCMS.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\商品消费查询.FrmConsumer.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmJz.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\商品管理.UI.FrmProduct.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\商品管理.UI.FrmProductsT.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\商品管理.UI.FrmProductsX.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmPwdX.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmRoomTable.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmRoomTypeT.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmRoomTypeX.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmSystem.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmTableT.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmTableTs.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmTableX.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmUserLogion.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmVIp.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmVipGradeT.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmVipGradeX.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmVipsT.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.FrmVipsX.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.POS结帐.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\商品管理.UI.ProductsTypeT.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\商品管理.UI.ProductsTypeX.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.Properties.Resources.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.TuiCaichaxunFrm.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.单台预订.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.快餐外买.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.批量预订.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.预订管理.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.餐饮快速开单.resources
+D:\VS2010Project\CMS\CMS\obj\x86\Debug\CMS.csproj.GenerateResource.Cache

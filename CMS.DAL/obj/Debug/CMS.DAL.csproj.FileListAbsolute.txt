@@ -1,0 +1,14 @@
+D:\visual studio 2010\Projects\CMS\CMS.DAL\bin\Debug\CMS.DAL.dll
+D:\visual studio 2010\Projects\CMS\CMS.DAL\bin\Debug\CMS.DAL.pdb
+D:\visual studio 2010\Projects\CMS\CMS.DAL\bin\Debug\CMS.Model.dll
+D:\visual studio 2010\Projects\CMS\CMS.DAL\bin\Debug\CMS.Model.pdb
+D:\visual studio 2010\Projects\CMS\CMS.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\visual studio 2010\Projects\CMS\CMS.DAL\obj\Debug\CMS.DAL.dll
+D:\visual studio 2010\Projects\CMS\CMS.DAL\obj\Debug\CMS.DAL.pdb
+D:\VS2010Project\CMS\CMS.DAL\bin\Debug\CMS.DAL.dll
+D:\VS2010Project\CMS\CMS.DAL\bin\Debug\CMS.DAL.pdb
+D:\VS2010Project\CMS\CMS.DAL\bin\Debug\CMS.Model.dll
+D:\VS2010Project\CMS\CMS.DAL\bin\Debug\CMS.Model.pdb
+D:\VS2010Project\CMS\CMS.DAL\obj\Debug\CMS.DAL.csprojResolveAssemblyReference.cache
+D:\VS2010Project\CMS\CMS.DAL\obj\Debug\CMS.DAL.dll
+D:\VS2010Project\CMS\CMS.DAL\obj\Debug\CMS.DAL.pdb
